@@ -1,0 +1,502 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* global media */
+  h1 {
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+  }
+  h2 {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+  h3 {
+    font-size: 2.5rem;
+  }
+  .hero-text {
+    text-align: center;
+  }
+  .hero-text .divider {
+    margin: 3rem auto;
+  }
+  /* global media */
+  /* navber start */
+  .h-btn-1 {
+    margin: 0 !important;
+  }
+  .navbar-brand {
+    width: 12rem;
+  }
+  .btn {
+    background: var(--color-1);
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
+    display: inline-block;
+  }
+  /* navber end */
+  /* hero start */
+  .hero {
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+  }
+  .hero-img {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  .icon-box {
+    text-align: center;
+  }
+  .h-btn {
+    text-align: center;
+  }
+  /* hero end */
+  /* buy online start */
+  .buy-online {
+    padding: 0 !important;
+  }
+  .card-wrapper {
+    margin-right: 0 !important;
+  }
+  .buy-online .col-lg-4 {
+    margin-top: 2rem;
+  }
+  /* buy online end */
+  /* discount start */
+  .discount {
+    padding-bottom: 6rem;
+  }
+  .discount-wrap {
+    margin: 3rem 0 0 0 !important;
+  }
+  /* discount end */
+  /* find start */
+  .find-text {
+    padding-left: 0rem !important;
+    margin-top: 4rem;
+  }
+
+  /* find end */
+  /* menu start */
+  .filter .btn {
+    margin: 0 !important;
+    margin-top: 1rem !important;
+  }
+  .menu-item {
+    margin: 2rem 0rem;
+    text-align: center;
+  }
+  /* menu end */
+  /* vedio start */
+  #video {
+  }
+
+  /* vedio end */
+  /* delivery start */
+  #delivery {
+    padding-top: 7rem;
+    padding-bottom: 6rem;
+  }
+
+  .dl-img {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .dl-box h4 {
+    margin: 1rem 0;
+  }
+  .dl-btn img {
+    width: 46%;
+  }
+  /* delivery end */
+  /* customer start */
+  #customer {
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+  }
+  .ts {
+    margin: 3rem 0 0 0;
+    text-align: center;
+  }
+  .ts h5 {
+    margin-bottom: 0.5rem;
+    margin-top: 2rem;
+  }
+  /* customer end */
+  /* special start */
+  #special {
+    padding: 8rem 0 7rem 0;
+  }
+  /* special end */
+  /* article start */
+  #article {
+    padding-top: 8rem;
+    padding-bottom: 7rem;
+  }
+  .blg-top img {
+    width: 100%;
+  }
+  .blg-btm {
+    text-align: center;
+  }
+  .blg-btm h4 {
+    line-height: 3rem;
+  }
+
+  /* article end */
+  /* contact start */
+  #contact {
+    padding: 7rem 0;
+  }
+  #contact h2 {
+    margin-bottom: 1.5rem;
+  }
+  .form {
+    margin-top: 1.5rem;
+  }
+  #contact button {
+    width: 100%;
+    margin-top: 2rem;
+  }
+  /* contact end */
+  /* footer start */
+  footer ul li h4 {
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+  }
+  /* footer end */
+  .f-btm {
+    text-align: center;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* global media */
+  h1 {
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+  }
+  h2 {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+  h3 {
+    font-size: 2.5rem;
+  }
+
+  .hero-text {
+    text-align: center;
+  }
+  .hero-text .divider {
+    margin: 3rem auto;
+  }
+  /* global media */
+  /* nav start */
+  .h-btn-1 {
+    margin: 0 !important;
+  }
+  /* nav end */
+  /* hero start */
+  .hero {
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+  }
+  .hero-img {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  .icon-box {
+    text-align: center;
+  }
+  .h-btn {
+    text-align: center;
+  }
+  /* hero end */
+  /* buy online start */
+  .buy-online {
+    padding: 0 !important;
+  }
+  .card-wrapper {
+    margin-right: 0 !important;
+  }
+  .buy-online .col-lg-4 {
+    margin-top: 2rem;
+  }
+  /* buy online end */
+  /* discount start */
+  .discount {
+    padding-bottom: 6rem;
+  }
+  .discount-wrap {
+    margin: 3rem 0 0 0 !important;
+  }
+  /* discount end */
+  /* find start */
+  .find-text {
+    padding-left: 0rem !important;
+    margin-top: 4rem;
+  }
+
+  /* find end */
+  /* menu start */
+  .filter .btn {
+    margin-top: 1rem !important;
+  }
+  .menu-item {
+    margin: 2rem 0rem;
+    text-align: center;
+  }
+  /* menu end */
+  /* vedio start */
+  #video {
+  }
+  .dl-img {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .dl-box h4 {
+    margin: 1rem 0;
+  }
+  .dl-btn img {
+    width: 46%;
+  }
+  /* vedio end */
+  /* delivery start */
+  #delivery {
+    padding-top: 8rem;
+    padding-bottom: 6rem;
+  }
+  /* delivery end */
+  /* customer start */
+  #customer {
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+  }
+  .ts {
+    margin: 3rem 0 0 0;
+    text-align: center;
+  }
+  .ts h5 {
+    margin-bottom: 0.5rem;
+    margin-top: 2rem;
+  }
+  /* customer end */
+  /* special start */
+  #special {
+    padding: 8rem 0 7rem 0;
+  }
+  /* special end */
+  /* article start */
+  #article {
+    padding-top: 8rem;
+    padding-bottom: 7rem;
+  }
+  .blg-top img {
+    width: 100%;
+  }
+  .blg-btm {
+    text-align: center;
+  }
+  .blg-btm h4 {
+    line-height: 3rem;
+  }
+
+  /* article end */
+  /* contact start */
+  #contact {
+    padding: 7rem 0;
+  }
+  #contact h2 {
+    margin-bottom: 1.5rem;
+  }
+  .form {
+    margin-top: 1.5rem;
+  }
+  #contact button {
+    width: 100%;
+    margin-top: 1.5rem;
+  }
+  /* contact end */
+  /* footer start */
+  footer ul li h4 {
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+  }
+  /* footer end */
+  .dl-box {
+    margin-top: 3rem;
+    width: 46%;
+    float: left;
+    margin-right: 4%;
+    text-align: center;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* global media */
+  h1 {
+    font-size: 4rem;
+    line-height: 4.5rem;
+  }
+  h2 {
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+  h3 {
+    font-size: 2.5rem;
+  }
+  .hero-text {
+    text-align: center;
+  }
+  .hero-text .divider {
+    margin: 3rem auto;
+  }
+  /* global media */
+  /* hero start */
+  .hero {
+    padding-top: 10rem;
+    padding-bottom: 8rem;
+  }
+  .hero-img {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  .icon-box {
+    text-align: center;
+  }
+  .h-btn {
+    text-align: center;
+  }
+  /* hero end */
+  /* buy online start */
+  .buy-online {
+    padding: 0 !important;
+  }
+  .card-wrapper {
+    margin-right: 0 !important;
+  }
+  .buy-online .col-lg-4 {
+    margin-top: 2rem;
+  }
+  /* buy online end */
+  /* discount start */
+  .discount {
+    padding-top: 10rem;
+    padding-bottom: 8rem;
+  }
+  .discount-wrap {
+    margin: 3rem 0 0 0 !important;
+  }
+  /* discount end */
+  /* find start */
+  .find-text {
+    padding-left: 0rem !important;
+    margin-top: 4rem;
+  }
+
+  /* find end */
+  /* menu start */
+  .filter .btn {
+    margin-top: 1rem !important;
+  }
+  .menu-item {
+    margin: 2rem 0rem;
+    text-align: center;
+  }
+  /* menu end */
+  /* vedio start */
+
+  .dl-img {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .dl-box h4 {
+    margin: 1rem 0;
+  }
+  .dl-btn img {
+    width: 46%;
+  }
+  /* vedio end */
+  /* delivery start */
+  #delivery {
+    padding-bottom: 8rem;
+  }
+  /* delivery end */
+  /* customer start */
+  #customer {
+    padding-top: 9rem;
+    padding-bottom: 8rem;
+  }
+  .ts {
+    margin: 3rem 0 0 0;
+    text-align: center;
+  }
+  .ts h5 {
+    margin-bottom: 0.5rem;
+    margin-top: 2rem;
+  }
+  /* customer end */
+  /* special start */
+  #special {
+    padding: 10rem 0 9rem 0;
+  }
+  /* special end */
+  /* article start */
+  #article {
+    padding-top: 10rem;
+    padding-bottom: 9rem;
+  }
+  .blog {
+    margin-top: 8rem;
+  }
+  .blg-top img {
+    width: 100%;
+  }
+  .blg-btm {
+    text-align: center;
+  }
+  .blg-btm h4 {
+    line-height: 3rem;
+  }
+
+  /* article end */
+  /* contact start */
+  #contact {
+    padding: 7rem 0;
+  }
+  #contact h2 {
+    margin-bottom: 1.5rem;
+  }
+  .form {
+    margin-top: 1.5rem;
+  }
+  #contact button {
+    width: 100%;
+    margin-top: 1.5rem;
+  }
+  /* contact end */
+  /* footer start */
+  footer ul li h4 {
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+  }
+  /* footer end */
+  .dl-box {
+    margin-top: 3rem;
+    width: 46%;
+    float: left;
+    margin-right: 4%;
+    text-align: center;
+  }
+  .h-btn-1 {
+    margin: 0 !important;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

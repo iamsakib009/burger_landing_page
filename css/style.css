@@ -1,0 +1,640 @@
+/* =============================================
+/* GLOBAL CSS
+================================================*/
+:root{
+  --color-1: #FFBA00;
+  --color-2: #007936;
+  --color-3: #CC3433;
+  --color-4: #171717;
+  --color-5: #ffffff;
+  --color-6: #C0C0C0;
+  
+}
+html{
+  font-size: 62.5%;
+ 
+}
+body{
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  background: #000000;
+  color: var(--color-5);
+  font-size: 1.6rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5{
+  font-weight: 600;
+  font-family: 'Oswald', sans-serif;
+  margin: 0rem;
+  text-transform: uppercase;
+  
+}
+h1{
+  font-size: 6.4rem;
+  line-height: 6.4rem;
+}
+h2{
+  font-size: 4.2rem;
+  line-height: 4.2rem;
+}
+h3{
+  font-size: 2.8rem;
+  line-height: 2.8rem;
+}
+h4{
+  font-size: 2.4rem;
+  line-height: 3rem;
+}
+h5{
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+}
+p{
+  color: #C0C0C0;
+}
+p,span{
+  margin: 0rem;
+}
+ul,li{
+  list-style: none;
+}
+ul{
+  padding-left: 0;
+  margin-bottom: 0;
+}
+a,
+a:hover,
+a:visited{
+  text-decoration: none;
+}
+img{
+  max-width: 100%;
+  vertical-align: middle;
+}
+.btn,.btn:hover{
+  outline: none;
+}
+.btn:focus{
+  box-shadow: none;
+}
+.btn{
+  background: var(--color-1);
+  padding: 1.2rem 3.8rem;
+  font-size: 1.6rem;
+  display: inline-block;
+}
+.btn:hover{
+  background: var(--color-5);
+}
+.divider{
+  margin: 3rem 0rem;
+  height: .3rem;
+  width: 15rem;
+  background: var(--color-1);
+
+}
+
+
+
+/* =============================================
+/* HEADER CSS
+================================================*/
+header{
+
+ 
+}
+.navbar {
+	padding-top: 1.5rem;
+	position: fixed;
+	left: 0;
+	right: 0;
+	width: 100%;
+	background: #333;
+	padding-bottom: 1.5rem;
+	z-index: 999;
+}
+.navbar-toggler {
+background-color: var(--color-5) !important;
+}
+.navbar-brand{
+  width: 14rem;
+}
+.logo{}
+.navbar-nav{
+ 
+}
+.nav-item{
+  margin-right: 3rem;
+}
+.nav-item:last-child{
+  margin-right: 0;
+}
+.nav-link{
+  color: var(--color-5) !important;
+
+}
+.nav-link:active{
+  color: var(--color-1) !important;
+}
+.nav-link:hover{
+  color: var(--color-1) !important;
+}
+/* HERO */
+
+.hero{
+  padding-top: 18rem;
+  padding-bottom: 8rem;
+}
+.hero-img{}
+.hero-img img{
+  width: 90%;
+ 
+}
+
+.icon-box{
+  margin: 4rem 0;
+}
+.icon{
+  margin-bottom: 1.8rem;
+}
+.icon i{
+  font-size: 4rem;
+  color: var(--color-1);
+}
+.icon-box span{
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+/* =============================================
+/* BUY ONLINE CSS
+================================================*/
+.buy-online{
+  padding: 5rem 0;
+}
+.card-wrapper{
+background-color: var(--color-1);
+border-radius: 1rem;
+margin-right: 1rem;
+
+}
+.a{
+  background: var(--color-1);
+}
+.a a{
+  color: var(--color-4) !important;
+}
+.b{
+  background: var(--color-2);
+}
+.c{
+  background: var(--color-3);
+}
+.card-wrapper:nth-child(3){
+  margin-right: 0;
+}
+
+.card-img-1{
+  width: 40%;
+  margin-right: 3rem;
+  background: url(../img/cheeseburger.png);
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.card-img-2{
+  width: 40%;
+  margin-right: 3rem;
+  background: url(../img/QCFS4BS-x.png);
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.card-img-3{
+  width: 40%;
+  margin-right: 3rem;
+  background: url(../img/PNNSUD7-2.png);
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.card-content{
+  width: 60%;
+  padding: 2rem 0;
+  
+}
+.card-content h4{}
+.card-content p{
+  color: var(--color-5);
+}
+.card-content a{
+  color: var(--color-1);
+  display: inline-block;
+  margin-top: .5rem;
+}
+/* =============================================
+/* DISCOUNT CSS
+================================================*/
+.discount{
+  padding: 4rem 0 12rem;
+}
+
+.discount-wrap{
+  background: var(--color-4);
+  border-radius: 1rem;
+  padding: 2.5rem;
+ 
+}
+
+.discount-text{
+  width: 60%;
+  margin-right: 2rem;
+}
+.discount-text span{
+  color: var(--color-1);
+}
+.discount-text h3{
+  margin-top: 1rem;
+}
+.discount-text p{
+  margin: 1rem 0rem;
+}
+.discount-text a{
+  color: var(--color-1);
+}
+.discount-img{
+  width: 40%;
+}
+/* =============================================
+/* FIND CSS
+================================================*/
+.find{
+  
+}
+.find-img{
+
+}
+.find-img img{
+  border-radius: 1rem;
+}
+.find-text{
+  padding-left: 1.3rem;
+}
+.find-text .row{
+  margin: 2.5rem 0rem;
+}
+.find-text ul{}
+.find-text ul li{
+  color: var(--color-6);
+}
+.find-text ul li i{
+  color: var(--color-1);
+  margin-right: 1rem;
+  line-height: 3rem;
+}
+/* =============================================
+/* menu CSS
+================================================*/
+.menu{
+  padding: 8rem 0;
+}
+.filter{
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+}
+.filter button{
+  margin-right: 4rem;
+ border-radius: 1rem;
+ background: var(--color-4);
+ color: var(--color-5);
+}
+
+.filter button:hover{
+  background: var(--color-1);
+}
+.filter button:last-child{
+  margin-right: 0rem;
+}
+.menu-item{
+  margin: 4rem 0rem;
+}
+.item-img{
+  padding: 5rem 4rem;
+  background: var(--color-4);
+  border-radius: 2rem;
+  margin-bottom: 3rem;
+  transition: .5s;
+  text-align: center;
+}
+.item-img img{
+  height: 15.5rem;
+}
+.item-img:hover{
+  background: var(--color-1);
+}
+.menu-item h4{}
+.menu-item p{
+  margin: 1rem 0;
+}
+.menu-item span{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  color: var(--color-1);
+}
+
+/* =============================================
+/* VIDEO CSS
+================================================*/
+#video{
+  padding: 12rem 0;
+  position: relative;
+  
+}
+.vd1{
+  object-fit: cover;
+  height: 100% ;
+  width: 100% ;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+
+}
+.vedio-ctn{
+  text-align: center;
+}
+.play-btn{
+  margin-bottom: 4rem;
+}
+.play-btn i {
+	width: 6.5rem;
+	height: 6.5rem;
+	line-height: 6.5rem;
+	border: 1px solid;
+	font-size: 6.5rem;
+	color: var(--color-1);
+	background:var(--color-5);
+	border-radius: 50%;
+  position: relative;
+  z-index: 9;
+  
+}
+.play-btn i::before{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 6.5rem;
+  height: 6.5rem;
+ color: var(--color-1);
+ border-radius: 50%;
+ z-index: -1;
+ animation: play 1.5s linear infinite;
+}
+@keyframes play {
+  0% {
+    box-shadow: 0 0 0 0px rgb(255, 186, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 20px rgb(255, 186, 0);
+    opacity: .3;
+  }
+}
+#video .hero-text p{
+  color: var(--color-5) !important;
+}
+.vedio-ctn .hero-text .divider{
+  margin: 3rem auto !important;
+  
+}
+/* =============================================
+/* DELIVERY CSS
+================================================*/
+#delivery{
+  padding-top: 12rem;
+  padding-bottom: 10rem;
+}
+.dl-img{}
+.dl-img img{
+  width: 60%;
+  text-align: center;
+}
+.dl-box{
+  background: var(--color-4);
+  border-radius: 1rem;
+  padding: 2rem;
+  margin-top: 3rem;
+}
+.dl-box i {
+	width: 7rem;
+	height: 7rem;
+	background: var(--color-1);
+	font-size: 4rem;
+	line-height: 6rem;
+	padding: .4rem;
+	text-align: center;
+	border-radius: 1rem;
+  transition: .5s;
+
+}
+.dl-box i:hover{
+  color: #888B91;
+  
+}
+.dl-box h4{
+  margin-bottom: 1rem;
+}
+.dl-box p{}
+.dl-btn{}
+.dl-btn img{
+  width: 35%;
+  display: inline-block;
+  margin-right: 1rem;
+  margin-top: 5rem;
+  transition: .3s;
+}
+.dl-btn img:hover{
+  transform: translateY(-10px);
+}
+/* =============================================
+/* CUSTOMER CSS
+================================================*/
+#customer{
+  background-color: var(--color-4);
+  padding-top: 12rem;
+  padding-bottom: 11rem;
+}
+.ts{
+  background-color: #000000;
+  padding: 3rem 2.5rem 3rem 2.5rem;
+  border-radius: 1rem;
+  margin: 0 .5rem;
+  margin-top: 3rem;
+}
+.ts p:first-child{
+  margin-bottom: 3rem;
+}
+.ts h5{
+  margin-bottom: .5rem;
+}
+.ts img{
+  border-radius: 50%;
+}
+.ts i{
+  font-size: 4rem;
+  color: var(--color-1);
+}
+/* =============================================
+/* SPECIAL CSS
+================================================*/
+#special{
+background: linear-gradient(210deg, #00000075 0%, #000000 100%), url(../img/three-men-enjoying-burgers-and-beer-in-bar.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 12rem;
+  padding-bottom: 11rem;
+  opacity: 1;
+}
+.sp-ctn{}
+.sp-ctn .btn{
+  margin-top: 2.5rem;
+}
+/* =============================================
+/* ARTICLE CSS
+================================================*/
+#article{
+  padding-top: 12rem;
+  padding-bottom: 11rem;
+}
+.blog{
+  margin-top: 2.5rem;
+}
+.blg-top{
+  position: relative;
+  margin-bottom: 2.5rem;
+}
+.blg-top img{
+  border-radius: 0.3rem;
+  height: 24rem;
+}
+.blg-top span{
+  color: var(--color-1);
+  background: #000000;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 1rem;
+}
+.blg-btm{}
+.blg-btm h4{}
+.blg-btm p{
+  margin: 2rem 0;
+}
+.blg-btn{}
+.blg-btn a{
+  color: var(--color-1);
+}
+.blg-btn a i{
+  margin-left: 1rem;
+}
+/* =============================================
+/* CONTACT CSS
+================================================*/
+#contact{
+  background: var(--color-1);
+  padding: 8rem 0;
+}
+#contact h2{
+  color: #000000;
+  margin-bottom: 2.5rem;
+}
+#contact p{
+  color: var(--color-5);
+}
+.form{
+  height: 6rem;
+  font-size: 1.6rem;
+  padding: 0 3rem;
+  border: none;
+  border-radius: 1rem;
+}
+.form:focus{
+  box-shadow: none;
+  border: none;
+}
+#contact button{
+  height: 6rem;
+  font-size: 1.6rem;
+  padding: 0 3rem;
+  background: var(--color-4);
+  color: var(--color-5);
+  border: none;
+  border-radius: 1rem;
+}
+#contact button i{
+  margin-right: 1.5rem;
+}
+/* =============================================
+/* FOOTER CSS
+================================================*/
+footer{
+  color: var(--color-5);
+  padding-top: 8rem;
+}
+.f-logo{
+  
+}
+.f-logo img{
+  width: 14rem;
+  margin-bottom: 2.5rem;
+}
+footer p{
+  color: var(--color-5);
+}
+footer ul{}
+footer ul li{
+  margin-bottom: 1.5rem;
+}
+footer ul li h4{
+  margin-bottom: .5rem;
+}
+footer ul li a{
+  color: var(--color-5);
+  transition: .5s;
+  display: inline-block;
+}
+footer ul li a:hover{
+  color: var(--color-1);
+}
+footer ul li  i{
+  color: var(--color-1);
+  margin-right: .6rem;
+}
+.f-social{
+
+}
+.f-social li {
+  display: inline-block;
+}
+.f-social li a{
+  display: block;
+  transition: .5s;
+  text-align: center;
+}
+.f-social li a i{
+  height: 3rem;
+  width: 3rem;
+  line-height: 3rem;
+}
+.f-social li a i:hover{
+  color: var(--color-5) !important;
+  
+}
+.f-btm{
+  padding: 2.5rem;
+  border-top: .1rem solid #ddd;
+  margin-top: 5rem;
+}
